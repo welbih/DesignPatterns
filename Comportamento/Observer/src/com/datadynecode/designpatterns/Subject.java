@@ -1,0 +1,8 @@
+package com.datadynecode.designpatterns;
+
+public interface Subject {
+
+    void registerObserver(Observer observer);
+    void unregisterObserver(Observer observer);
+    void notifyObserver();
+}
